@@ -26,3 +26,18 @@ void print_triangle(int leftCol, int size)
   }
 }
 
+// Prints an Arrow Pointing Up
+void print_arrow(int leftCol, int size)
+{
+  int i, j;
+  int endCol = leftCol + size;
+  print_triangle(size, size);
+  for (int row = 0; row < size; row++){
+    int col;
+    for(col = 0; col < leftCol; col++) { 
+      if(col == 0){ printf("       "); } else { putchar(' '); }}
+    for(       ; col < endCol;  col++) {
+      if(col == 0){ printf("      *"); } else { putchar('*'); }}
+    putchar('\n'); 
+  }
+}
