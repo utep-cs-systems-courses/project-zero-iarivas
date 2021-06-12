@@ -41,3 +41,21 @@ void print_arrow(int leftCol, int size)
     putchar('\n'); 
   }
 }
+// Sus
+void print_sus(int leftCol, int size)
+{
+  printf("          ********* \n");
+  printf("        ************ \n");
+  printf("      *************** \n");
+  printf("     * -----   |***** \n");
+  printf("     *         |*****====== \n");
+  printf("      ***************|      | \n");
+  printf("      ***************|      | \n");
+  printf("      ***************|      | \n");
+  printf("      ****************====== \n");
+  printf("      ***************| \n");
+  printf("      ***************| \n");
+  printf("      ******|  ******| \n");
+  printf("      ******|  ******| \n");
+  printf("\n");
+}

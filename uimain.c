@@ -38,6 +38,9 @@ int main()
       puts("You selected chars:");
       print_arrow(5,7);
       break;
+    case '?':
+      print_sus();
+      break;
     case 'q':
       puts("Bye!");
       goto done; 		/* terminate */
